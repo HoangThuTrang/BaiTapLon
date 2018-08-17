@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+    }
+     
+#main {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.head {
+        height: 250px;
+        background-color: white;
+        font-size: 20px;
+        margin-bottom:5px;
+        display: flex;
+        Justify-content: space-around;
+        align-items: center;
+}
+#content {
+    background-color: white;
+ }

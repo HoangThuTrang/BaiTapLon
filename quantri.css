@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+    }
+     
+#main {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.head {
+        height: 250px;
+        background-color: white;
+        font-size: 20px;
+        margin-bottom:5px;
+        display: flex;
+        Justify-content: space-around;
+        align-items: center; 
+}
+#menu ul{
+    list-style-type:none;
+    display: flex;
+    Justify-content: space-around;
+    align-items: center;   
+}
+#menu ul a{
+    text-decoration:none;
+    font-size: 20px;
+    background-color: white;
+    border: solid skyblue;
+    border-radius: 10px; 
+    width:100px;
+    float:left;
+    color: black;
+    line-height:30px;
+    text-align:center;
+}
+
+#menu ul a:hover{
+    background-color: skyblue;
+    color:white;
+}
+#menu ul a:active{
+    background-color:skyblue;
+    border-color: skyblue;
+}
